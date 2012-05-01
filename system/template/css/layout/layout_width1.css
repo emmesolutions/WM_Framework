@@ -1,0 +1,29 @@
+/* Stylesheet System Width1 */
+/* Layout Width */
+
+/* Desktops and Laptops */
+@media only screen 
+  and (min-width : 900px) {
+	/* Container */
+	div#Container{
+		width: 90%;
+	}
+
+	/* Admin */
+	div#WM_Admin{
+		width: 90%;
+	}
+}
+/* Pad and Netbook */
+@media only screen 
+  and (max-width : 899px) {
+	/* Container */
+	div#Container{
+		width: 95%;
+	}
+
+	/* Admin */
+	div#WM_Admin{
+		width: 95%;
+	}
+}

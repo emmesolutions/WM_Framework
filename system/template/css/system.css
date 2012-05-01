@@ -1,0 +1,312 @@
+/* Stylesheet  System */
+
+
+/* File CSS Reset */
+@import url(reset.css);
+
+body{
+	color: #333333;
+	text-align: center;
+}
+
+/* Web eMMe Corner */
+div#WM_Corner01 {
+	position: fixed;
+ 	top: 2px;
+ 	left: 2px;
+	height: 86px;
+	width: 86px;
+	margin: 0px;
+	padding: 1px;	
+	font: 50.00%  “Trebuchet MS”, Helvetica, sans-serif;
+	text-align:center;
+}
+div#WM_Corner02 {
+	position: fixed;
+ 	top: 2px;
+ 	right: 2px;
+	height: 86px;
+	width: 86px;
+	margin: 0px;
+	padding: 1px;
+	font: 50.00%  “Trebuchet MS”, Helvetica, sans-serif;
+	text-align:center;
+}
+
+/* Web eMMe Admin Menu */
+div#WM_Menu01 {
+	position: fixed;
+ 	top: 95px;
+ 	left: 2px;
+	height: auto;
+	width: 42px;
+	margin: 0px;
+	padding: 1px;
+	text-align:center;
+}
+div#WM_Menu02 {
+	position: fixed;
+ 	top: 95px;
+ 	right: 2px;
+	height: auto;
+	width: 42px;
+	margin: 0px;
+	padding: 1px;
+	text-align:center;
+}
+
+/* ------------------------------------------------------------- */
+
+/* Wrapper */
+div#WM_Wrapper {
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+/* Border Top */
+div#WM_BrdTop {
+	min-height: 74px;
+	width:100%;
+	margin: 0px;
+	padding: 0.5em 0em 0.5em 0em;
+	overflow: auto;
+}
+
+div#WM_Desk{
+	clear: both;
+	min-height:200px;
+	margin: 0px;
+	padding: 10px;
+	text-align: center;
+}
+/* Desk*/
+/* Desktops and Laptops */
+@media only screen 
+  and (min-width : 900px) {
+	/* Container */
+	div#Container{
+		background-color: #FFFFFF;
+		min-height:320px;
+		box-shadow: 0px 0px 20px #000000;
+		margin: 50px auto;
+		padding: 10px;
+		text-align: left;
+	}
+
+	/* Admin */
+	div#WM_Admin{
+		background-color: #FFFFFF;
+		min-height:320px;
+		box-shadow: 0px 0px 20px #000000;
+		margin: 50px auto;
+		padding: 10px;
+		text-align: left;
+	}
+	/* Login */
+	div#WM_Login {
+		background-color: #FFFFFF;
+		min-height:150px;
+	  	border: 1px solid #CCCCCC;
+		box-shadow: 0px 0px 10px #000000;
+		margin: 40px auto;
+		padding: 10px;
+	  	width: 300px;
+		text-align: center;
+	}
+	/* Alerts */
+	div#WM_Alerts {
+		background-color: #FFFFFF;
+		min-height:150px;
+	  	border: 1px solid #CCCCCC;
+		box-shadow: 0px 0px 10px #000000;
+		margin: 40px auto;
+		padding: 10px;
+	  	width: 300px;
+		text-align: center;
+	}
+}
+/* Pad and Netbook */
+@media only screen 
+  and (max-width : 899px) 
+  and (min-width : 500px){
+	/* Container */
+	div#Container{
+		background-color: #FFFFFF;
+		min-height:320px;
+		box-shadow: 0px 0px 20px #000000;
+		margin: 10px auto;
+		padding: 10px;
+		text-align: left;
+	}
+
+	/* Admin */
+	div#WM_Admin{
+		background-color: #FFFFFF;
+		min-height:320px;
+		box-shadow: 0px 0px 20px #000000;
+		margin: 10px auto;
+		padding: 10px;
+		text-align: left;
+	}
+	/* Login */
+	div#WM_Login {
+		background-color: #FFFFFF;
+		min-height:150px;
+	  	border: 1px solid #CCCCCC;
+		box-shadow: 0px 0px 10px #000000;
+		margin: 40px auto;
+		padding: 10px;
+	  	width: 300px;
+		text-align: center;
+	}
+	/* Alerts */
+	div#WM_Alerts {
+		background-color: #FFFFFF;
+		min-height:150px;
+	  	border: 1px solid #CCCCCC;
+		box-shadow: 0px 0px 10px #000000;
+		margin: 40px auto;
+		padding: 10px;
+	  	width: 300px;
+		text-align: center;
+	}
+}
+/* Smartphones */
+@media only screen
+  and (max-width : 499px){
+	/* Container */
+	div#Container{
+		background-color: #FFFFFF;
+		min-height:120px;
+		margin: 0px auto;
+		padding: 5px;
+		text-align: left;
+	}
+
+	/* Admin */
+	div#WM_Admin{
+		background-color: #FFFFFF;
+		min-height:120px;
+		margin: 10px auto;
+		padding: 10px;
+		text-align: left;
+	}
+	/* Login */
+	div#WM_Login {
+		background-color: #FFFFFF;
+		margin: 10px auto;
+		padding: 10px;
+	  	width: 300px;
+		text-align: center;
+	}
+	/* Alerts */
+	div#WM_Alerts {
+		background-color: #FFFFFF;
+		margin: 10px auto;
+		padding: 10px;
+	  	width: 300px;
+		text-align: center;
+	}
+}
+
+
+/* Border Bottom */
+div#WM_BrdBot {
+	clear: both;
+	min-height: 100px;
+	width: 100%;
+	margin: 0px;
+	padding: 2em 0em 1em 0em;
+	overflow: auto;
+}
+
+/* ------------------------------------------------------------- */
+
+/* Login Stylesheet */
+.WM_LoginTitle {
+	width: 100%;
+	padding: 10px 0px 20px 0px;
+	text-align: center;
+	color: #373737;
+	font-weight: bold;
+}
+#WM_Login label {
+	float: left;
+	width: 33% ;
+	padding: 5px 0px 5px 0px;
+	text-align: right;
+	font: 80.00%  “Trebuchet MS”, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #373737;
+}
+#WM_Login input {
+	text-align: left;
+	font: 80.00%  “Trebuchet MS”, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #AAAAAA;
+}
+.WM_LoginImg {
+	clear: both;
+	margin: 10px;
+	padding: 10px;
+	overflow:auto;
+	margin-left: auto;
+	margin-right: auto;
+	height: 43px;
+	width: 43px;
+}
+
+/* Alerts Stylesheet */
+.WM_AlertsTitle {
+	width: 100%;
+	padding: 10px 0px 10px 0px;
+	text-align: center;
+	font-weight: bold;
+	color: #730000;
+}
+.WM_AlertsMsg {
+	font: 80.00%  “Trebuchet MS”, Helvetica, sans-serif;
+	text-align: center;
+	font-weight: bold;
+	color: #373737;
+}
+
+/* Menu Stylesheet */
+div.WM_Menu {
+ 	float: left;
+	padding: 0px;
+	min-height: 43px;
+	min-width: 43px;
+	text-align: center; 
+}
+img.WM_MenuImg {
+	margin: 5px 0px 0px 0px;
+	padding: 0px;
+	border-radius: 3px;
+	box-shadow: 0px 0px 1px #000000;
+}
+.WM_MenuImg:hover {
+	padding: 1px;
+	border-radius: 3px;
+	box-shadow: 0px 0px 5px #000000;
+}
+
+/* Offline */
+img.WM_OffLogo {
+	display: block;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 96px;
+}
+
+/* Debug */
+div.WM_Debug {
+	clear: both;
+	margin: 3em 1em 3em 1em;
+	padding: 0.5em 0.5em 1em 0.5em;
+	border: solid 1px #737373;
+	font: 90.00%  “Trebuchet MS”, Helvetica, sans-serif;
+}
+
