@@ -1,0 +1,21 @@
+/* Stylesheet  Container */
+/* Structure */
+
+/* Breadcrumb */
+.WM_Breadcrumb {
+	width: 100%;
+	padding: 10px 0px 10px 0px;
+	text-align: left;
+	color: #373737;
+	font: 80.00%  “Trebuchet MS”, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+/* Web Main */
+div#WM_WebMain {
+	padding: 20px 30px 20px 30px;
+	text-align: center;
+	color: #373737;
+	font: 100.00%  “Trebuchet MS”, Helvetica, sans-serif;
+	font-weight: bold;
+}
