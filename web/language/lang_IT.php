@@ -5,6 +5,6 @@
 
 /* Web Container Language IT */
 
-
+            define("WM_WEB_NAV", "Navigazione: ");
 
 ?>

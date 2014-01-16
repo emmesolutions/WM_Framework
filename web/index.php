@@ -31,7 +31,7 @@
 
 /* Breadcrumb */
 echo '<div class="WM_Breadcrumb">';
-echo WM_WEB_NAV.$_GET[WM_URI_PSTN];
+echo WM_WEB_NAV.$WM_Pstn;
 echo '</div>';
 
 ?>

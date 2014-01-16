@@ -15,7 +15,7 @@ for ($Set = 2; $Set < 8; ++$Set) {		// Retrieve Setting Value
 	} else {								
 		if (isset($_COOKIE[$Val])) {
 
-		if (isset($WM_ReadPST[$Val])) {	setcookie($Val, $WM_SCookies[$Val], $WM_CookieEx); }
+		if (isset($WM_ReadPST[$Val])) {setcookie($Val, $WM_SCookies[$Val], $WM_CookieEx); }
 		  else { $WM_SCookies[$Val] = $_COOKIE[$Val]; }
 
 		} else {						

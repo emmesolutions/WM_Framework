@@ -26,7 +26,7 @@ if ($WM_SCookies [WM_SYS_VAL_LANG] == "IT") {
 	if(defined('_WMAD')) {
         require (WM_ADM . '/language/lang_IT.php');
 	} 
-	if( empty($WM_ReadGET[WM_URI_DESK]) or $WM_ReadGET[WM_URI_DESK] == "Cont" ) {
+	if( empty($WM_ReadGET[WM_URI_DESK]) or $WM_ReadGET[WM_URI_DESK] == WM_DESK_WEB ) {
         require (WM_WEB . '/language/lang_IT.php'); 
 	}       
 } 

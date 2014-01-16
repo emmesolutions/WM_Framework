@@ -7,7 +7,7 @@
 
 
 // Position
-$WM_Pstn = $_GET[WM_URI_PSTN]. '&amp;';
+// $WM_Pstn = $_GET[WM_URI_PSTN]. '&amp;';
 ?>
 
 <div class="WM_Language"> 
@@ -18,8 +18,8 @@ $Icons = 'src="./system/template/images/modules/language/';
 
 echo "\n\t".'<div class="WM_Menu">'."\n";
 	// Select Language
-	if( $WM_SCookies[WM_SYS_VAL_LANG] == "EN" ) { echo "\n\t".'<a accesskey="L" href="index.php?'.$WM_Pstn.WM_SYS_VAL_LANG.'=IT">'; }
-	if( $WM_SCookies[WM_SYS_VAL_LANG] == "IT" ) { echo "\n\t".'<a accesskey="L" href="index.php?'.$WM_Pstn.WM_SYS_VAL_LANG.'=EN">'; }
+	if( $WM_SCookies[WM_SYS_VAL_LANG] == "EN" ) { echo "\n\t".'<a accesskey="L" href="index.php?'.$WM_Pstn.'&amp;'.WM_SYS_VAL_LANG.'=IT">'; }
+	if( $WM_SCookies[WM_SYS_VAL_LANG] == "IT" ) { echo "\n\t".'<a accesskey="L" href="index.php?'.$WM_Pstn.'&amp;'.WM_SYS_VAL_LANG.'=EN">'; }
 	echo "\n\t".'<img class="WM_MenuImg" ';
 	if( $WM_SCookies[WM_SYS_VAL_LANG] == "EN" ) { 
 	echo "\n\t".$Icons. 'WM_LangEN.png" ';

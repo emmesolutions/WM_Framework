@@ -131,7 +131,7 @@ function WM_DBSetOne_Write($Set_Name, $Field_Name, $Value) {
 
  	mysql_close($WM_DBSettings); 
 
-  	return $WM_DBRead;
+  	return;
 }
 
 ?>

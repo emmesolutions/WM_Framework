@@ -7,7 +7,7 @@
 
 
 // Position
-$WM_Pstn = $_GET[WM_URI_PSTN]. '&amp;';
+// $WM_Pstn = $_GET[WM_URI_PSTN]. '&amp;';
 ?>
 
 <div class="WM_Layout"> 
@@ -17,9 +17,9 @@ $Icons = 'src="./system/template/images/modules/layout/';
 
 echo "\n\t".'<div class="WM_Menu">'."\n";
 	// Select Width 
-	if( $WM_SCookies[WM_LAY_VAL_WIDTH] == "01" ) { echo "\n\t".'<a accesskey="W" href="index.php?'.$WM_Pstn.WM_LAY_VAL_WIDTH.'=02">'; }
-	if( $WM_SCookies[WM_LAY_VAL_WIDTH] == "02" ) { echo "\n\t".'<a accesskey="W" href="index.php?'.$WM_Pstn.WM_LAY_VAL_WIDTH.'=03">'; }
-	if( $WM_SCookies[WM_LAY_VAL_WIDTH] == "03" ) { echo "\n\t".'<a accesskey="W" href="index.php?'.$WM_Pstn.WM_LAY_VAL_WIDTH.'=01">'; }
+	if( $WM_SCookies[WM_LAY_VAL_WIDTH] == "01" ) { echo "\n\t".'<a accesskey="W" href="index.php?'.$WM_Pstn.'&amp;'.WM_LAY_VAL_WIDTH.'=02">'; }
+	if( $WM_SCookies[WM_LAY_VAL_WIDTH] == "02" ) { echo "\n\t".'<a accesskey="W" href="index.php?'.$WM_Pstn.'&amp;'.WM_LAY_VAL_WIDTH.'=03">'; }
+	if( $WM_SCookies[WM_LAY_VAL_WIDTH] == "03" ) { echo "\n\t".'<a accesskey="W" href="index.php?'.$WM_Pstn.'&amp;'.WM_LAY_VAL_WIDTH.'=01">'; }
 	echo "\n\t".'<img class="WM_MenuImg" ';
 	if( $WM_SCookies[WM_LAY_VAL_WIDTH] == "01" ) { echo "\n\t" .$Icons. 'WM_Width.png" '; }
 	if( $WM_SCookies[WM_LAY_VAL_WIDTH] == "02" ) { echo "\n\t" .$Icons. 'WM_Width.png" '; }
@@ -29,9 +29,9 @@ echo "\t".'</div>'."\n";
 
 echo "\n\t".'<div class="WM_Menu">'."\n";
 	// Select Style
-	if( $WM_SCookies[WM_LAY_VAL_STYLE] == "01" ) { echo "\n\t".'<a accesskey="S" href="index.php?'.$WM_Pstn.WM_LAY_VAL_STYLE.'=02">'; }
-	if( $WM_SCookies[WM_LAY_VAL_STYLE] == "02" ) { echo "\n\t".'<a accesskey="S" href="index.php?'.$WM_Pstn.WM_LAY_VAL_STYLE.'=03">'; }
-	if( $WM_SCookies[WM_LAY_VAL_STYLE] == "03" ) { echo "\n\t".'<a accesskey="S" href="index.php?'.$WM_Pstn.WM_LAY_VAL_STYLE.'=01">'; }
+	if( $WM_SCookies[WM_LAY_VAL_STYLE] == "01" ) { echo "\n\t".'<a accesskey="S" href="index.php?'.$WM_Pstn.'&amp;'.WM_LAY_VAL_STYLE.'=02">'; }
+	if( $WM_SCookies[WM_LAY_VAL_STYLE] == "02" ) { echo "\n\t".'<a accesskey="S" href="index.php?'.$WM_Pstn.'&amp;'.WM_LAY_VAL_STYLE.'=03">'; }
+	if( $WM_SCookies[WM_LAY_VAL_STYLE] == "03" ) { echo "\n\t".'<a accesskey="S" href="index.php?'.$WM_Pstn.'&amp;'.WM_LAY_VAL_STYLE.'=01">'; }
 	echo "\n\t".'<img class="WM_MenuImg" ';
 	if( $WM_SCookies[WM_LAY_VAL_STYLE] == "01" ) { echo "\n\t" .$Icons. 'WM_Style.png" '; }
 	if( $WM_SCookies[WM_LAY_VAL_STYLE] == "02" ) { echo "\n\t" .$Icons. 'WM_Style.png" '; }
@@ -41,9 +41,9 @@ echo "\t".'</div>'."\n";
 
 echo "\n\t".'<div class="WM_Menu">'."\n";
 	// Select Fonts
-	if( $WM_SCookies[WM_LAY_VAL_FONTS] == "01" ) { echo "\n\t".'<a accesskey="F" href="index.php?'.$WM_Pstn.WM_LAY_VAL_FONTS.'=02">'; }
-	if( $WM_SCookies[WM_LAY_VAL_FONTS] == "02" ) { echo "\n\t".'<a accesskey="F" href="index.php?'.$WM_Pstn.WM_LAY_VAL_FONTS.'=03">'; }
-	if( $WM_SCookies[WM_LAY_VAL_FONTS] == "03" ) { echo "\n\t".'<a accesskey="F" href="index.php?'.$WM_Pstn.WM_LAY_VAL_FONTS.'=01">'; }
+	if( $WM_SCookies[WM_LAY_VAL_FONTS] == "01" ) { echo "\n\t".'<a accesskey="F" href="index.php?'.$WM_Pstn.'&amp;'.WM_LAY_VAL_FONTS.'=02">'; }
+	if( $WM_SCookies[WM_LAY_VAL_FONTS] == "02" ) { echo "\n\t".'<a accesskey="F" href="index.php?'.$WM_Pstn.'&amp;'.WM_LAY_VAL_FONTS.'=03">'; }
+	if( $WM_SCookies[WM_LAY_VAL_FONTS] == "03" ) { echo "\n\t".'<a accesskey="F" href="index.php?'.$WM_Pstn.'&amp;'.WM_LAY_VAL_FONTS.'=01">'; }
 	echo "\n\t".'<img class="WM_MenuImg" ';
 	if( $WM_SCookies[WM_LAY_VAL_FONTS] == "01" ) { echo "\n\t" .$Icons. 'WM_Fonts.png" '; }
 	if( $WM_SCookies[WM_LAY_VAL_FONTS] == "02" ) { echo "\n\t" .$Icons. 'WM_Fonts.png" '; }
@@ -53,4 +53,3 @@ echo "\t".'</div>'."\n";
 
 ?>
 </div>
-

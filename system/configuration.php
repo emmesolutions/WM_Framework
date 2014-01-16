@@ -6,6 +6,9 @@
 /* Web eMMe Framework */
 /* System Configuration File */
 
+/* Cookie Expires */
+$WM_CookieEx = 0;
+
 /* Enable Debug */
 $WM_Debug = false;
 
@@ -47,6 +50,7 @@ define('WM_TIME_ZONE', "Europe/Rome");		// Set Time Zone
 
 /* POST Data */
 	// Login
+	define('WM_URI_PSTN', ""); 		// 
 	define('WM_PST_USER', "User"); 		// Admin User
 	define('WM_PST_PSWD', "Pswd"); 		// Admin Password
 
@@ -93,4 +97,3 @@ define('WM_TAB_ADMIN', "WM_Admin");		// Database Table Admin Name
 require (WM_ADM . '/configuration.php');
 /* Container Configuration */
 require (WM_WEB . '/configuration.php');
-
